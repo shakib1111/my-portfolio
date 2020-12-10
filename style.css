@@ -1,0 +1,42 @@
+
+
+:root{
+
+    --primay-color: #7C3AED;
+    --off-white: #F3F4F6;
+    --dark-gray: #6B7280;
+}
+body{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   
+}
+
+.navigation {
+color: #8B4513;
+background-color: rgb(38, 167, 184);
+padding: 1rem;
+border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bolder;
+}
+
+.hero{
+        padding: 2rem;
+        padding-top: 5rem;
+}
+
+.hero .hero-img{
+    max-width:80% ;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);

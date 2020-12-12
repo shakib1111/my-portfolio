@@ -2,7 +2,7 @@
 
 :root{
 
-    --primay-color: #8f20da;
+    --primay-color: #6EE7B7;
     --off-white: #F3F4F6;
     --dark-gray: #6B7280;
 }
@@ -86,12 +86,12 @@ border-bottom-left-radius: 1rem;
 
 .navigation .nav-brand{
     font-weight: bolder;
-    color: cyan;
+    color: rgb(26, 196, 153);
 }
 .nav-brand a{
     text-decoration: none;
     font-weight: bold;
-}
+
 .navigation .nav-pills{
     color: var(--off-white);
     text-align: right;
@@ -121,7 +121,10 @@ border-bottom-left-radius: 1rem;
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color: var(--dark-gray);
+    color: var(--primay-color);
+}
+.invert-heading{
+    color: rgb(34, 13, 153);
 }
 
 /*sections  */
@@ -160,5 +163,4 @@ background-color: var(--off-white);
 .footer ul{
     padding-inline-start: 0px;
 }
-
 
